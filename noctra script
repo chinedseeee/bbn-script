@@ -1,5 +1,9 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "issues",
-    Text = "Lots issues script will stop soon but will come back later",
-    Duration = 10
-})
+task.wait(1)
+
+pcall(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "issues",
+        Text = "Lots issues script will stop soon but will come back later",
+        Duration = 10
+    })
+end)
